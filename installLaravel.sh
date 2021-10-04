@@ -19,3 +19,5 @@ php artisan ui bootstrap --auth
 php artisan adminlte:install --force
 php artisan adminlte:plugins install --force
 php artisan adminlte:install --only=main_views --force
+composer require willy-gilly/qswg
+php artisan qswg:install
