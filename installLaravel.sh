@@ -14,6 +14,7 @@ composer require laravel/ui
 echo 'require adminlte'
 composer require jeroennoten/laravel-adminlte
 echo 'php artisan commands'
+php artisan ui:auth
 php artisan ui bootstrap
 php artisan ui bootstrap --auth
 php artisan adminlte:install --force
